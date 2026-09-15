@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://classyheels.com/sitemap.xml
+Sitemap: https://mughlaifood.com/sitemap.xml

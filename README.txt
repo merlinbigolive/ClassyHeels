@@ -1,1 +1,1 @@
-ClassyHeels.com — Dark Blue Premium Responsive Landing Page
+ClassyHeels.com premium domain sale website.
