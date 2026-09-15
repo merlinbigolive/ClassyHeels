@@ -1,5 +1,9 @@
-ClassyHeels.com premium domain landing page.
-Built in the same overall style/structure as the supplied OdinShip site:
-full-screen hero, navigation, BUY NOW CTA, domains section, marketplace modal and responsive mobile layout.
+ClassyHeels.com Premium Landing Page
 
-Marketplace buttons are included for ClassyHeels.com, MughlaiFood.com and OdinShip.com.
+Updated:
+- Dynadot removed completely.
+- Clean premium/minimal visual design.
+- Tighter spacing and less empty gap.
+- Responsive for mobile and desktop.
+- Marketplace options: GoDaddy, Afternic and Sedo.
+- ClassyHeels, MughlaiFood and OdinShip retained.

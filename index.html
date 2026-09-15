@@ -10,7 +10,7 @@
 <style>
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;background:#120b0d;color:#fff;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;overflow-x:hidden}
+body{margin:0;background:#10090c;color:#fff;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;overflow-x:hidden}
 .hero{position:relative;min-height:100svh;height:100svh;overflow:hidden;background:#ead8d1}
 .scene{position:absolute;inset:0;overflow:hidden;background:#ead8d1}
 .scene:before{
@@ -21,21 +21,21 @@ body{margin:0;background:#120b0d;color:#fff;font-family:Inter,system-ui,-apple-s
 }
 .scene:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(245,230,224,.80) 0%,rgba(245,230,224,.34) 45%,rgba(20,8,10,.08) 72%,rgba(10,3,5,.34) 100%),linear-gradient(180deg,rgba(255,255,255,.08),transparent 35%,rgba(18,6,10,.30))}
 .glow{position:absolute;inset:0;background:radial-gradient(circle at 68% 62%,rgba(211,62,104,.18),transparent 27%);pointer-events:none}
-.nav{position:absolute;z-index:5;top:0;left:0;right:0;height:78px;display:flex;align-items:center;justify-content:space-between;padding:0 5%;background:linear-gradient(#3a161f88,transparent)}
+.nav{position:absolute;z-index:5;top:0;left:0;right:0;height:68px;display:flex;align-items:center;justify-content:space-between;padding:0 4.5%;background:linear-gradient(#2b111888,transparent)}
 .logo{font:800 25px Georgia,serif;text-shadow:0 3px 20px #0008}.logo span{color:#d83d6c}
 .links a{color:#fff;text-decoration:none;margin-left:28px;font-size:13px}.links a:hover{color:#f05a86}
 .menu{display:none;font-size:30px}
-.copy{position:absolute;z-index:4;top:17%;left:5%;right:5%;max-width:760px}
-.kicker{letter-spacing:6px;color:#d33d69;font-weight:900;font-size:11px}
+.copy{position:absolute;z-index:4;top:18%;left:4.5%;right:4.5%;max-width:720px}
+.kicker{letter-spacing:4px;color:#d33d69;font-weight:900;font-size:10px}
 h1{font:700 clamp(50px,7.2vw,96px)/.94 Georgia,serif;margin:14px 0 12px;letter-spacing:-2.5px;white-space:nowrap;color:#171014;text-shadow:0 4px 25px #fff8}
 h1 span{color:#d33d69}
-.tag{font-size:clamp(18px,2.2vw,28px);color:#26161c;margin-bottom:24px;max-width:620px;font-weight:500}
-.buy{display:inline-flex;align-items:center;gap:13px;text-decoration:none;color:#fff;font-weight:950;padding:15px 29px;border-radius:999px;background:linear-gradient(100deg,#c82f61,#ec5d86,#c82f61);background-size:220% auto;box-shadow:0 0 35px #c82f6155;animation:shine 4s linear infinite}
+.tag{font-size:clamp(17px,1.8vw,24px);color:#26161c;margin:0 0 18px;max-width:560px;font-weight:500;line-height:1.35}
+.buy{display:inline-flex;align-items:center;gap:10px;text-decoration:none;color:#fff;font-weight:950;padding:13px 26px;border-radius:999px;background:linear-gradient(100deg,#c82f61,#ec5d86,#c82f61);background-size:220% auto;box-shadow:0 10px 30px #c82f6140;animation:shine 4s linear infinite}
 .buy b{font-size:21px}
 .motion{position:absolute;z-index:4;bottom:6%;left:50%;transform:translateX(-50%);text-align:center;letter-spacing:4px;font-size:9px;color:#fff;white-space:nowrap;text-shadow:0 2px 8px #000}
 .chevron{display:block;font-size:28px;animation:bob 1.8s ease-in-out infinite}
-.next{background:#14090d;padding:85px 6%;min-height:70vh;text-align:center}.next .kicker{margin-bottom:10px}.next h2{font:700 clamp(42px,6vw,72px) Georgia,serif;margin:0 0 15px}.next p{color:#c9aeb8;max-width:650px;margin:auto;line-height:1.7}
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:1100px;margin:40px auto}.card{padding:24px;text-align:left;border:1px solid #ffffff1c;border-radius:18px;background:#ffffff08}.domain{font:700 29px Georgia,serif}.domain span{color:#e4507c}.card p{color:#c9aeb8;font-size:12px}.card button{width:100%;border:0;border-radius:10px;padding:13px;background:#df4773;color:#fff;font-weight:900;cursor:pointer}
+.next{background:#14090d;padding:52px 5%;min-height:0;text-align:center}.next .kicker{margin-bottom:10px}.next h2{font:700 clamp(38px,5vw,62px) Georgia,serif;margin:0 0 8px}.next p{color:#c9aeb8;max-width:650px;margin:auto;line-height:1.7}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;max-width:1080px;margin:24px auto 0}.card{padding:18px;text-align:left;border:1px solid #ffffff16;border-radius:15px;background:#ffffff07}.domain{font:700 29px Georgia,serif}.domain span{color:#e4507c}.card p{color:#c9aeb8;font-size:12px;margin:7px 0 13px;line-height:1.45}.card button{width:100%;border:0;border-radius:9px;padding:11px;background:#df4773;color:#fff;font-weight:900;cursor:pointer}
 footer{text-align:center;padding:28px;color:#8f727e;font-size:10px;border-top:1px solid #ffffff12}
 .modal{position:fixed;z-index:20;inset:0;background:#000b;display:none;align-items:center;justify-content:center;padding:20px;backdrop-filter:blur(10px)}.modal.show{display:flex}.box{width:min(420px,100%);background:#241017;border:1px solid #e4507c;border-radius:20px;padding:24px}.close{float:right;background:none;border:0;color:#fff;font-size:27px;cursor:pointer}.box h3{font:700 29px Georgia,serif;margin:6px 0}.box p{color:#c9aeb8;font-size:12px}.market{display:block;padding:13px;border:1px solid #ffffff20;border-radius:10px;color:#fff;text-decoration:none;margin-top:10px}.market b{float:right;color:#f05a86}
 @keyframes shine{to{background-position:220% center}}
@@ -45,12 +45,12 @@ footer{text-align:center;padding:28px;color:#8f727e;font-size:10px;border-top:1p
  .scene:before{background-size:auto 100%;background-position:68% center}
  .scene:after{background:linear-gradient(90deg,rgba(245,230,224,.88),rgba(245,230,224,.40)),linear-gradient(180deg,rgba(255,255,255,.10),transparent 45%,rgba(18,6,10,.28))}
  .nav{height:66px;padding:0 6%}.links{display:none}.menu{display:block}
- .copy{top:13%;left:5%;right:5%;text-align:left;max-width:none}
- h1{font-size:clamp(43px,12vw,72px);letter-spacing:-1.5px;margin:12px 0;white-space:normal}
- .tag{font-size:17px;max-width:330px}
- .buy{padding:14px 24px}
+ .copy{top:12.5%;left:6%;right:6%;text-align:left;max-width:none}
+ h1{font-size:clamp(40px,11.5vw,68px);letter-spacing:-1.5px;margin:9px 0 10px;white-space:normal}
+ .tag{font-size:16px;max-width:320px;line-height:1.38;margin-bottom:16px}
+ .buy{padding:12px 22px}
  .motion{bottom:3.5%;font-size:8px}
- .next{padding:65px 6%}.cards{grid-template-columns:1fr}
+ .next{padding:44px 5%}.cards{grid-template-columns:1fr;gap:10px;margin-top:20px}
 }
 @media(prefers-reduced-motion:reduce){.buy,.chevron{animation:none}}
 </style>
@@ -91,7 +91,6 @@ footer{text-align:center;padding:28px;color:#8f727e;font-size:10px;border-top:1p
  <a class="market" id="godaddy" target="_blank" rel="noopener">GoDaddy <b>→</b></a>
  <a class="market" id="afternic" target="_blank" rel="noopener">Afternic <b>→</b></a>
  <a class="market" id="sedo" target="_blank" rel="noopener">Sedo <b>→</b></a>
- <a class="market" id="dynadot" target="_blank" rel="noopener">Dynadot <b>→</b></a>
  </div>
 </div>
 <script>
@@ -99,21 +98,17 @@ const M={
 "classyheels.com":[
 "https://forsale.godaddy.com/forsale/classyheels.com?traffic_id=binns2&traffic_type=TDFS_BINNS2",
 "https://www.afternic.com/domain/classyheels.com",
-"https://sedo.com/search/details/?domain=Classyheels.com",
-"https://www.dynadot.com/domain/search.html?domain=classyheels.com"],
+"https://sedo.com/search/details/?domain=Classyheels.com"],
 "mughlaifood.com":[
 "https://www.godaddy.com/en-in/domainsearch/find?domainToCheck=mughlaifood.com",
 "https://www.afternic.com/domain/mughlaifood.com",
-"https://sedo.com/search/details/?domain=mughlaifood.com",
-"https://www.dynadot.com/domain/search.html?domain=mughlaifood.com"],
+"https://sedo.com/search/details/?domain=mughlaifood.com"],
 "odinship.com":[
 "https://www.godaddy.com/en-in/domainsearch/find?domainToCheck=odinship.com",
 "https://www.afternic.com/domain/odinship.com",
-"https://sedo.com/search/details/?domain=odinship.com",
-"https://www.dynadot.com/domain/search.html?domain=odinship.com"]};
+"https://sedo.com/search/details/?domain=odinship.com"]};
 function openMarket(d){
- document.getElementById("modalTitle").textContent="Buy "+d;
- ["godaddy","afternic","sedo","dynadot"].forEach((x,i)=>document.getElementById(x).href=M[d][i]);
+ document.getElementById("modalTitle").textContent="Buy "+d;["godaddy","afternic","sedo"].forEach((x,i)=>document.getElementById(x).href=M[d][i]);
  document.getElementById("modal").classList.add("show");
 }
 function closeMarket(){document.getElementById("modal").classList.remove("show")}
