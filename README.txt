@@ -1,9 +1,9 @@
-ClassyHeels.com Premium Landing Page
+ClassyHeels.com — Gold Premium Responsive Landing Page
 
-Updated:
-- Dynadot removed completely.
-- Clean premium/minimal visual design.
-- Tighter spacing and less empty gap.
-- Responsive for mobile and desktop.
-- Marketplace options: GoDaddy, Afternic and Sedo.
-- ClassyHeels, MughlaiFood and OdinShip retained.
+- Premium black + gold theme
+- Compact spacing (no huge empty gaps)
+- Responsive mobile and desktop
+- Animated ambient glow and BUY NOW shine effect
+- Marketplace buttons: GoDaddy, Afternic, Sedo
+- Dynadot removed
+- Includes MughlaiFood.com and OdinShip.com
