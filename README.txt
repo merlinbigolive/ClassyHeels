@@ -1,14 +1,5 @@
-Premium Domains Landing Page
+ClassyHeels.com premium domain landing page.
+Built in the same overall style/structure as the supplied OdinShip site:
+full-screen hero, navigation, BUY NOW CTA, domains section, marketplace modal and responsive mobile layout.
 
-Domains:
-- ClassyHeels.com
-- MughlaiFood.com
-- OdinShip.com
-
-Marketplace buttons:
-- ClassyHeels.com: GoDaddy verified for-sale page + exact Sedo URL supplied by the owner; Afternic/Dynadot domain/search URLs included.
-- MughlaiFood.com: GoDaddy domain search + Afternic domain URL + Sedo domain-details URL + Dynadot domain search URL.
-- OdinShip.com: GoDaddy domain search + Afternic domain URL + Sedo domain-details URL + Dynadot domain search URL.
-
-Note:
-Afternic seller checkout/offer links can be account-specific. The website uses the public domain URL format where a seller-specific checkout URL was not available. The GoDaddy ClassyHeels page is a verified active for-sale page.
+Marketplace buttons are included for ClassyHeels.com, MughlaiFood.com and OdinShip.com.
